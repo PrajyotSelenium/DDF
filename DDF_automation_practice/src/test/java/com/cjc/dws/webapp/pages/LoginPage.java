@@ -11,7 +11,9 @@ import org.openqa.selenium.support.FindBy;
 import com.cjc.dws.webapp.utility.Commons;
 
 public class LoginPage {
-        
+            
+	    // LoginPage constructor
+	
 	    public LoginPage(WebDriver driver)
 	    {
 	    	Commons.driver=driver;
