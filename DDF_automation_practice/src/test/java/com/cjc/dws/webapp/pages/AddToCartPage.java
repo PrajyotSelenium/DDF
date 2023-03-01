@@ -11,7 +11,9 @@ import org.openqa.selenium.support.FindBy;
 import com.cjc.dws.webapp.utility.Commons;
 
 public class AddToCartPage {
-            // AddToCart constructor
+            
+	    // AddToCart constructor
+	
 	    public AddToCartPage(WebDriver driver)
 	    {
 	    	Commons.driver=driver;
