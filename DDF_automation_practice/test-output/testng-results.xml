@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-01T12:55:22Z" name="Suite" finished-at="2023-03-01T12:56:17Z" duration-ms="54463">
+    <groups>
+    </groups>
+    <test started-at="2023-03-01T12:55:22Z" name="Test" finished-at="2023-03-01T12:56:17Z" duration-ms="54463">
+      <class name="com.cjc.dws.webapp.tests.DWSTests">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:55:21Z" name="openBrowser" finished-at="2023-03-01T12:55:22Z" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:55:22Z" name="openUrl" finished-at="2023-03-01T12:55:24Z" duration-ms="1858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="max()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:55:24Z" name="max" finished-at="2023-03-01T12:55:24Z" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- max -->
+        <test-method is-config="true" signature="timeoutsAndCookies()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:55:24Z" name="timeoutsAndCookies" finished-at="2023-03-01T12:55:24Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeoutsAndCookies -->
+        <test-method signature="register()[pri:1, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:55:24Z" name="register" finished-at="2023-03-01T12:55:38Z" duration-ms="13360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="screenshot()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:55:38Z" name="screenshot" finished-at="2023-03-01T12:55:38Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="timeoutsAndCookies()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:55:38Z" name="timeoutsAndCookies" finished-at="2023-03-01T12:55:38Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeoutsAndCookies -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:2, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:55:38Z" name="login" finished-at="2023-03-01T12:55:52Z" duration-ms="14459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prajyotgujarkar9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prajyot123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="screenshot()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:55:52Z" name="screenshot" finished-at="2023-03-01T12:55:52Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="timeoutsAndCookies()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:55:52Z" name="timeoutsAndCookies" finished-at="2023-03-01T12:55:52Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeoutsAndCookies -->
+        <test-method signature="addToCart(java.lang.String, java.lang.String)[pri:3, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:55:52Z" name="addToCart" data-provider="getData" finished-at="2023-03-01T12:56:17Z" duration-ms="24040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prajyot]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gujarkarprajyot@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="screenshot()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:56:17Z" name="screenshot" finished-at="2023-03-01T12:56:17Z" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:56:17Z" name="deleteCookies" finished-at="2023-03-01T12:56:17Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method is-config="true" signature="dbClose()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:56:17Z" name="dbClose" finished-at="2023-03-01T12:56:17Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbClose -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.cjc.dws.webapp.tests.DWSTests@79dc5318]" started-at="2023-03-01T12:56:17Z" name="browserClose" finished-at="2023-03-01T12:56:17Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.cjc.dws.webapp.tests.DWSTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
