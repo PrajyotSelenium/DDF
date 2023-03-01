@@ -16,6 +16,8 @@ import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 
+// Commons class
+
 public class Commons {
         
 	   public static WebDriver driver;
