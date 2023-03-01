@@ -12,6 +12,8 @@ import com.cjc.dws.webapp.utility.Commons;
 
 public class RegisterPage {
             
+	      // RegisterPage constructor
+	
 	      public RegisterPage(WebDriver driver)
 	      {
 	    	  Commons.driver=driver;
