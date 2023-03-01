@@ -31,8 +31,9 @@ import com.cjc.dws.webapp.pages.LoginPage;
 import com.cjc.dws.webapp.pages.RegisterPage;
 import com.cjc.dws.webapp.utility.Commons;
 
+  // Test class
 public class DWSTests {
-           	
+           
 	   @BeforeSuite
 	   public void openBrowser() throws IOException
 	   {
